@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+:root{
+	--myRed:#FF4949 ;
+	--hoverRed:#FF6D6D ;
+	--gray: #121212;
+	--white: ;
+	--trans: 0.2s ease-in-out;
+
+	
+}
+*{
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+body{
+	background-color: black;
+	
+
+}
+
+
+
+
