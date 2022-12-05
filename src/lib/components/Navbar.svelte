@@ -1,5 +1,4 @@
 <script type="text/javascript">
-	import Socials from '$lib/components/Socials.svelte'
 	
 </script>
 
