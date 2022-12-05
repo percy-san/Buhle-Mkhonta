@@ -10,13 +10,13 @@
 	<div class="right">
 		<div class="full-nav">
 			<ul>
-				<li><a href={"#"}>Services</a></li>
+				<li><a href="#services">Services</a></li>
 				  
-				<li><a href={"#"}>Skills</a></li>
+				<li><a href="#skills">Skills</a></li>
 				        
-				<li><a href={"#"}>Work</a></li>
+				<li><a href="#work">Work</a></li>
 				        
-				<li><a href={"#"}>Blog</a></li>  
+				<li><a href="#contact">Contact</a></li>  
 			</ul>
 			
 
@@ -27,13 +27,14 @@
 				<div class="uk-offcanvas-bar uk-flex uk-flex-column">
 					<i class='bx bx-menu-alt-left uk-offcanvas-close' ></i>
 				    <ul class="uk-nav uk-nav-primary ">
-				        <li><a href={"#"}>Services</a></li>
+				    	<li><a href="#services" >Services</a></li>
+				  		<hr>
+						<li><a href="#skills">Skills</a></li>
+				  		<hr>
+						<li><a href="#work">Work</a></li>
 				        <hr>
-				        <li><a href={"#"}>Skills</a></li>
-				        <hr>
-				        <li><a href={"#"}>Work</a></li>
-				        <hr>
-				        <li><a href={"#"}>Blog</a></li>  
+						<li><a href="#contact">Contact</a></li> 
+				        
 				    </ul>
 		    	</div>
 				</div>

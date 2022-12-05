@@ -10,14 +10,18 @@
 <main>
 	<slot />
 </main>
-
 <Footer />
+
+
+
+
 
 
 
 
 <!--CSS-->
 <style type="text/css">
+	
 	
 	
 </style>

@@ -2,16 +2,24 @@
 	import Section from '$lib/shared/Section.svelte'
 	import Card from '$lib/shared/Cards.svelte'
 
-	let desc = "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-	
+		
 </script>
 
 <main>
-	<Section  topHeader={"What I Offer"} heading ={"Services"} number={"01"}/>
+	<Section heading ={"Services"} number={"01"} bottomText={"Services I offer"}/>
 	<div class="services-section" >
-		<Card icon={'bx bx-laptop'} serviceText = {"WEB DEVELOPMENT"} serviceDesc ={desc}/>
-		<Card icon={'bx bx-mobile-alt'} serviceText = {"APP DEVELOPMENT"} serviceDesc ={desc}/>
-		<Card icon={'bx bx-scatter-chart'} serviceText = {"DATA ANALYSIS"} serviceDesc ={desc}/>
+
+		<div uk-scrollspy="cls: uk-animation-fade; delay: 200; repeat: true">
+			<Card icon={'bx bx-laptop'} serviceText = {"WEB DEVELOPMENT"} serviceDesc ={"Using Svelte, Tailwind,Uikit and firebase. I can create fully responsive websites for all your personal needs"}/>
+		</div>	
+
+		<div uk-scrollspy="cls: uk-animation-fade; delay: 250; repeat: true">
+			<Card icon={'bx bx-brush'} serviceText = {"Web Design"} serviceDesc ={"Using Figma and Webflow, i can create designs that you will be satisfied with."}/>
+		</div>
+
+		<div uk-scrollspy="cls: uk-animation-fade; delay: 300; repeat: true">
+			<Card icon={'bx bx-bot'} serviceText = {"ChatBot Creation"} serviceDesc ={"Using Services such as IBM Watson Assistant, i can create chatbots for ur business to handle customer queries."}/>
+		</div>
 
 	</div>
 	

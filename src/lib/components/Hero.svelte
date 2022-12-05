@@ -3,14 +3,14 @@
 	
 </script>
 
-<main>
+<main uk-scrollspy="cls: uk-animation-fade; delay: 200; repeat: true">
 	<div class="hero" >
 		<div class="info">
 			<p class="name">Hello, i'm BUHLE MKHONTA</p>
 			<div class="summary">
-				<p>Professional Software Engineer & Web developer</p>
+				<p>Junior Software Engineer & Web developer.</p>
 			</div>
-			<a class="btn-link" href="../Resume.pdf" download><button class="cv-btn"><i class='bx bx-download'></i></button>DOWNLOAD CV</a>	
+			<a class="btn-link" href="../Main-resume.pdf" download><button class="cv-btn"><i class='bx bx-download'></i></button>DOWNLOAD CV</a>	
 		</div>
 	</div>
 
@@ -35,7 +35,9 @@
 	}
 	.hero-image{
 		height: 100%;
-		padding: 5px;
+		width: 100%;
+		margin-top: -5rem;
+		padding-bottom: 20px;
 
 		
 	}
@@ -71,6 +73,9 @@
 		cursor: pointer;
 		transition: var(--trans);
 	}
+	.cv-btn:hover{
+		background-color: var(--hoverRed);
+	}
 
 	.btn-link{
 		color:#5B5B5B;
@@ -78,7 +83,7 @@
 	}
 	.btn-link:hover{
 		text-decoration: none;
-		color: var(--hoverRed);
+		color: white;
 
 	}
 	
@@ -88,6 +93,7 @@
 		main{
 			display: flex;
 			flex-wrap: wrap;
+			gap: 5rem;
 				
 		}
 		

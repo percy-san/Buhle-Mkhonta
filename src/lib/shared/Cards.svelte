@@ -4,12 +4,13 @@
 	export let serviceDesc = ""
 </script>
 
+<div>
+	<div class="card" >
+		<i class={`${icon}`}  ></i>
+		<p class="header">{serviceText}.</p>
+		<p class="desc">{serviceDesc}</p>
 
-<div class="card">
-	<i class={`${icon}`}  ></i>
-	<p class="header">{serviceText}.</p>
-	<p class="desc">{serviceDesc}</p>
-
+	</div>
 </div>
 
 <style type="text/css">

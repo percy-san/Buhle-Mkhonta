@@ -3,10 +3,13 @@
 	--myRed:#FF4949 ;
 	--hoverRed:#FF6D6D ;
 	--gray: #121212;
-	--white: ;
+	--white: #B6B6B6;
 	--trans: 0.2s ease-in-out;
 
 	
+}
+html{
+	scroll-behavior: smooth;
 }
 *{
 	margin: 0;

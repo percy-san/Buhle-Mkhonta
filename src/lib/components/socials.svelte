@@ -1,14 +1,15 @@
 <main>
-	<i class='bx bxl-github' ></i>
-	<i class='bx bxl-linkedin' ></i>
-	<i class='bx bxl-instagram' ></i>
+	<i class='bx bxl-github' uk-tooltip="title: GitHub; pos: bottom"></i>
+	<i class='bx bxl-linkedin' uk-tooltip="title: Hello linkedin; pos: bottom"></i>
+	
 </main>
 
 <style type="text/css">
 	main i{
 		margin-right: 5px;
-		font-size: 30px;
+		font-size: 40px;
 		transition: var(--trans);
+		color: var(--white);
 		cursor: pointer;
 	}
 	main i:hover{

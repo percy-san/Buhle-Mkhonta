@@ -1,14 +1,15 @@
 <script type="text/javascript">
-	export let heading = ""
-	export let number
-	
+	export let heading
+	export let number 
+	export let bottomText
 	
 	
 </script>
 
 <main>
 	<div>
-		<h1 class="heading"><span>{number}</span>{heading}</h1>
+		<p class="heading"><span>{number}</span>{heading}</p>
+		<h3 class="bottom-text">{bottomText}</h3>
 		
 		
 	</div>
@@ -16,15 +17,21 @@
 </main>
 
 <style type="text/css">
+	main{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	
 	.heading{
-		text-transform: uppercase;
 		color: white;
 		letter-spacing: 4px;
 		font-weight: bold;
-		font-size: 3rem;
-		padding-bottom: 5px;
-		margin-top:-15px;
-		max-width: 50%;
+		font-size: 4rem;
+		text-align: center;
+	}
+	.bottom-text{
+		color: var(--white);
+		margin-top: -25px;
 	}
 	
 	div h1{
@@ -33,14 +40,13 @@
 	}
 	span{
 		padding: 10px;
-		font-size: 25px;
 		color: var(--myRed);
-		margin-right: 10px;
+		
 	}
 
 @media screen and (max-width: 900px) {
 	.heading{
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	
 	}
