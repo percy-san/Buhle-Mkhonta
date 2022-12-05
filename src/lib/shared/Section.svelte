@@ -34,10 +34,6 @@
 		margin-top: -25px;
 	}
 	
-	div h1{
-		display: flex;
-		align-items: center;
-	}
 	span{
 		padding: 10px;
 		color: var(--myRed);

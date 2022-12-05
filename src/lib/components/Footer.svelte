@@ -27,16 +27,4 @@
 	}
 		
 	
-	
-	@media screen and (max-width: 900px) {
-		.top{
-			display: none;
-		}
-		
-
-		
-		
-		
-	}
-	
 </style>

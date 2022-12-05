@@ -4,7 +4,7 @@
 
 <nav>
 	<div class="left">
-		<a href="/" class="logo"><img src="../images/Buhle.png"></a>
+		<a href="/" class="logo"><img src="../images/Buhle.png" alt="logo"></a>
 	</div>
 	<div class="right">
 		<div class="full-nav">

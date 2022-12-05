@@ -33,11 +33,7 @@
 		width: 90%;
 		text-align: center;
 	}
-	.top-message{
-		color: white;
-		font-size: 20px;
-		text-align: center;	
-	}
+	
 
 	.area{
 		margin-bottom: 3rem;
