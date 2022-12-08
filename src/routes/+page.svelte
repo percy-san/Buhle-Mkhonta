@@ -43,11 +43,14 @@
 
 <style type="text/css">
 	main{
-		display: grid;
+		display: flex;
+		flex-direction: column;
+		
 	}
 
 	#hero,#services,#skills, #work,#contact{
 		padding: 40px;
+
 
 	}
 	
@@ -74,7 +77,8 @@
 		color: white;
 		font-weight: bold
 	}
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 480px) {
+		
 		
 
 	
