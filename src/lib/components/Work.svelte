@@ -20,6 +20,16 @@
 		<WorkCard projectName ={"Tip Calulator"} image={"../images/tip-calculator.jpeg"} link={'https://tip-calculator-app-nu-self.vercel.app/'}/>
 			
 	</div>
+
+	<div class="project-3" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 600; repeat: true">
+		<WorkCard projectName ={"Crowd Fund Challange"} image={"../images/crowdfunding.jpeg"} link={'https://crowdfund-challange.vercel.app/'}/>
+			
+	</div>
+
+	<div class="project-4" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 600; repeat: true">
+		<WorkCard projectName ={"Blog"} image={"../images/Blog.jpeg"} link={'https://buhlebethu-mkhonta.netlify.app/'}/>
+			
+	</div>
 		
 	
 		

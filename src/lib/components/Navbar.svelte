@@ -15,7 +15,10 @@
 				        
 				<li><a href="#work">Work</a></li>
 				        
-				<li><a href="#contact">Contact</a></li>  
+				<li><a href="#contact">Contact</a></li>
+
+				<li><a href="https://buhlebethu-mkhonta.netlify.app/">Blog</a></li>
+
 			</ul>
 			
 

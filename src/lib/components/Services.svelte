@@ -10,15 +10,15 @@
 	<div class="services-section" >
 
 		<div uk-scrollspy="cls: uk-animation-fade; delay: 200; repeat: true">
-			<Card icon={'bx bx-laptop'} serviceText = {"WEB DEVELOPMENT"} serviceDesc ={"Using Svelte, Tailwind,Uikit and firebase. I can create fully responsive websites for all your personal needs"}/>
+			<Card icon={'bx bx-laptop'} serviceText = {"WEB DEVELOPMENT"} serviceDesc ={"Using Svelte,Astro, Tailwind, Daisy UI, Uikit and firebase. I can create fully responsive websites for all your personal needs"}/>
 		</div>	
 
 		<div uk-scrollspy="cls: uk-animation-fade; delay: 250; repeat: true">
-			<Card icon={'bx bx-brush'} serviceText = {"Web Design"} serviceDesc ={"Using Figma and Webflow, i can create designs that you will be satisfied with."}/>
+			<Card icon={'bx bx-brush'} serviceText = {"Web Design"} serviceDesc ={"Using Figma and Webflow, I can create designs that you will be satisfied with."}/>
 		</div>
 
 		<div uk-scrollspy="cls: uk-animation-fade; delay: 300; repeat: true">
-			<Card icon={'bx bx-bot'} serviceText = {"ChatBot Creation"} serviceDesc ={"Using Services such as IBM Watson Assistant, i can create chatbots for ur business to handle customer queries."}/>
+			<Card icon={'bx bx-bot'} serviceText = {"ChatBot Creation"} serviceDesc ={"Using Services such as IBM Watson Assistant, I can create chatbots for ur business to handle customer queries."}/>
 		</div>
 
 	</div>
