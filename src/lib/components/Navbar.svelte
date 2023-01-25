@@ -36,6 +36,9 @@
 						<li><a href="#work">Work</a></li>
 				        <hr>
 						<li><a href="#contact">Contact</a></li> 
+				        <hr>
+						<li><a href="https://buhlebethu-mkhonta.netlify.app/">Blog</a></li>
+
 				        
 				    </ul>
 		    	</div>
