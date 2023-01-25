@@ -17,7 +17,7 @@
 				        
 				<li><a href="#contact">Contact</a></li>
 
-				<li><a href="https://buhlebethu-mkhonta.netlify.app/">Blog</a></li>
+				<li><a href="https://buhlebethu-mkhonta.netlify.app/" target="_blank">Blog</a></li>
 
 			</ul>
 			
@@ -37,7 +37,7 @@
 				        <hr>
 						<li><a href="#contact">Contact</a></li> 
 				        <hr>
-						<li><a href="https://buhlebethu-mkhonta.netlify.app/">Blog</a></li>
+						<li><a href="https://buhlebethu-mkhonta.netlify.app/" target="_blank">Blog</a></li>
 
 				        
 				    </ul>
